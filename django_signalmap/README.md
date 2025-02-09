@@ -1,6 +1,6 @@
 # Django SignalMap
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/django-signalmap.svg)](https://pypi.org/project/django-signalmap/)
 
 Django SignalMap is a lightweight Django package that automatically tracks, maps, and visualizes the signal connections in your Django project. By monkey-patching Django's signal connect method, SignalMap records which receivers are attached to each signal and provides a management command to display this map in an easy-to-read format.
